@@ -1,7 +1,7 @@
 <template>
   <section>
     <BreadcrumbsModule :data="data" :social="true" />
-    <div class="container-grid">
+    <div class="container-xxl">
       <div class="flex mt-16">
         <div class="w-1/3" id="grid-component">
           <div class="start-card rounded">
@@ -65,7 +65,6 @@
   import BreadcrumbsModule from '../parts/BreadcrumbsModule.vue';
   import ConnectingModule from '../parts/ConnectingModule.vue';
   import ConnectingHelp from '../parts/ConnectingHelp.vue';
-  import _ from 'lodash';
 
   export default {
     data() {
@@ -84,12 +83,12 @@
         required: true,
       }
     },
-    mounted() {
-      fetch('https://cdn.rage.mp/master/').then(response => response.json()).then(json => {
-        this.server = _.find(json, { 'name': '[voice] [roleplay] Grand RolePlay | discord.gg/grand | Server 1 | X2' });
-        this.server['ip'] = _.findKey(json, { 'name': '[voice] [roleplay] Grand RolePlay | discord.gg/grand | Server 1 | X2' });
-      })
-    }
+    // mounted() {
+    //   fetch('https://cdn.rage.mp/master/').then(response => response.json()).then(json => {
+    //     this.server = _.find(json, { 'name': '[voice] [roleplay] Grand RolePlay | discord.gg/grand | Server 1 | X2' });
+    //     this.server['ip'] = _.findKey(json, { 'name': '[voice] [roleplay] Grand RolePlay | discord.gg/grand | Server 1 | X2' });
+    //   })
+    // }
   }
 </script>
 

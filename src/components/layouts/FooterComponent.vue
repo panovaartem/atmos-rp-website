@@ -6,7 +6,7 @@
         <router-link :to="{ name: 'Главная' }">
           <svg-vue icon="logo" style="width: 136px; height: 35px;" />
         </router-link>
-        <span class="ml-16 opacity-25">© 2020 atmos-rp — </span><a href="#" class="ml-1">@xttago</a>
+        <span class="ml-16 opacity-25">© 2024 atmos-rp — </span><a href="#" class="ml-1">@xttago</a>
       </div>
       <div class="flex items-center">
         <a href="#"><svg-vue icon="vk" style="width: 28px; height: 28px;" class="opacity-50 hover:opacity-100" /></a>
