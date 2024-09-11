@@ -1,7 +1,7 @@
 <template>
   <section>
     <BreadcrumbsModule :data="data" :social="false" />
-    <div class="container-grid"> 
+    <div class="container-xxl"> 
       <div class="mt-12 flex">
         <div class="w-1/6" id="grid-component" v-for="(item, i) in selection" :key="i">
           <div @click="selectInfo(i, item.name)" :class="{ active: i == activeItem }" class="w-full h-24 rounded flex flex-column items-center justify-center base-component" >

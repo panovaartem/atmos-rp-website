@@ -1,7 +1,7 @@
 <template>
   <section>
     <BreadcrumbsModule :data="data" :social="false" :image="true" />
-    <div class="container-grid mt-12">
+    <div class="container-xxl mt-12">
       <div class="flex">
 
         <div class="w-1/3" id="grid-component">
@@ -49,7 +49,7 @@
     <AutomobileModule :cars="cars" />
     <WorkSkillsModule :work1="work1" :work2="work2" :work3="work3" :work4="work4"/>
 
-    <div class="container-grid mt-12" > 
+    <div class="container-xxl mt-12" > 
     <h2 class="flex ml-3 mb-4">Налоги на недвижимость</h2>
       <div id ="grid-component">
         <div class="document-version rounded flex p-3">

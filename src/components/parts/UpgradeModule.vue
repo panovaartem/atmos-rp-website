@@ -1,5 +1,5 @@
 <template>
-  <div class="container-grid mt-12">
+  <div class="container-xxl mt-12">
     <h2 class="ml-3 mb-4">Улучшения</h2>
     <div class="flex mt-3 ">
       <div class="w-1/3 space-y-4" id = "grid-component" >

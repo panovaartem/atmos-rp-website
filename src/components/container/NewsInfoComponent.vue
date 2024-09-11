@@ -1,7 +1,7 @@
 <template>
   <section>
     <BreadcrumbsModule :data="data" :social="false" />
-    <div class="container-grid mt-12">
+    <div class="container-xxl mt-12">
       <div class="flex">
         <div class="w-2/3" id="component-news">
           <h2>Lorem ipsum dolor sit amet</h2>

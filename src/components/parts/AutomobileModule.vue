@@ -1,5 +1,5 @@
 <template>
-  <div class="container-grid mt-12">
+  <div class="container-xxl mt-12">
       <h2 class="flex ml-3 mb-4">Автомобили <span class="opacity-50 ml-3">Спец.Транспорт</span></h2>
       <div class="flex ">
         <div class="w-1/3" id="grid-component" v-for="(item, i) in cars" :key="i">

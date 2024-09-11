@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="horizontal-line"></div>
-    <div class="container-grid mb-16">
+    <div class="container-xxl mb-16">
       <div class="flex">
         <div class="w-1/3" id="grid-component">
           <div class="weight-line"></div>

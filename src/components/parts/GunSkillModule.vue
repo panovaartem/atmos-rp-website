@@ -1,5 +1,5 @@
 <template>
-  <div class="container-grid mt-12" > 
+  <div class="container-xxl mt-12" > 
     <h2 class="flex ml-3 mb-4">Навыки владения оружием</h2>
 
     <div class="flex">

@@ -1,7 +1,7 @@
 <template>
   <section>
     <BreadcrumbsModule :data="data" :social="false" />
-    <div class="container-grid mt-12">
+    <div class="container-xxl mt-12">
       <div class="flex">
         <div class="w-1/3" id="grid-component">
           <v-select v-model="selected" :options="options" class="style-chooser" />

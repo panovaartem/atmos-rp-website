@@ -1,5 +1,8 @@
 <template>
-    <component :is="iconComponent" v-bind="$attrs" />
+    <component
+      :is="iconComponent"
+      v-bind="$attrs"
+    />
   </template>
   
   <script>
@@ -7,14 +10,14 @@
     props: {
       icon: {
         type: String,
-        required: true
-      }
+        required: true,
+      },
     },
     computed: {
       iconComponent() {
         return () => import(`@/assets/icons/${this.icon}.svg`);
-      }
-    }
+      },
+    },
   };
   </script>
   

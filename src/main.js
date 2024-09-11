@@ -6,7 +6,7 @@ import vueNumeralFilterInstaller from 'vue-numeral-filter';
 import lodash from 'lodash';
 import router from './router/router';
 import KProgress from 'k-progress';
-import SvgIcon from './components/common/SvgIcon.vue';
+import SvgIcon from '@/components/common/SvgIcon.vue';
 
 import './assets/css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
