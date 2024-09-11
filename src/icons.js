@@ -4,4 +4,5 @@ import SvgIcon from 'vue-svgicon';
 Vue.use(SvgIcon, { tagName: 'svg-vue' });
 
 const requireAll = requireContext => requireContext.keys().map(requireContext); 
-const req = require.context('./assets/icons', true, /.svg$/); requireAll(req);
+const req = require.context('./assets/icons', true, /.svg$/); 
+requireAll(req);
