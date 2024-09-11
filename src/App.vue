@@ -1,5 +1,8 @@
 <template>
-  <vue-custom-scrollbar id="scrollbar">
+  <div v-bar="{
+    preventParentScroll: true,
+    scrollThrottle: 30,
+}">
     <div id="main" class="text-white">
       <div id="content">
         <Header />
@@ -7,17 +10,15 @@
       </div>
       <Footer id="footer-container" />
     </div>
-  </vue-custom-scrollbar>
+  </div>
 </template>
 
 <script>
-  import vueCustomScrollbar from 'vue-custom-scrollbar'
   import Header from './components/layouts/HeaderComponent.vue'
   import Footer from './components/layouts/FooterComponent.vue'
 
   export default {
     components: {
-      vueCustomScrollbar,
       Header,
       Footer,
     },
@@ -28,10 +29,6 @@
 </script>
 
 <style lang="less">
-  #scrollbar {
-    height: 100%;
-    background-color: #0F1014;
-  }
   #main {
     height: 100%;
     display: flex;

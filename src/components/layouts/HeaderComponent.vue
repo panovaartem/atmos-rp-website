@@ -28,7 +28,9 @@
       </div>
       <router-link :to="{ name:'Профиль' }">
         <button class="btn-style-1 bg-blue-500 hover:bg-blue-700 text-white font-bold rounded flex items-center">
-          <div class="h-full w-10 bg-blue-700 flex justify-center rounded-l"><svg-vue icon="profile" style="width: 16px"/></div>
+          <div class="h-full w-10 bg-blue-700 flex justify-center items-center rounded-l">
+            <svg-vue icon="profile" style="width: 16px"/>
+          </div>
           <span class="px-4 font-normal">Профиль</span>
         </button>
       </router-link>

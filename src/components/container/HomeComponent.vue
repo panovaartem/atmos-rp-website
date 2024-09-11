@@ -65,7 +65,6 @@
     border-radius: 5px;
 
     span {
-      font-family: Rubik;
       font-style: normal;
       font-weight: bold;
       font-size: 36px;

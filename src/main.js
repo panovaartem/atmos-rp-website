@@ -6,6 +6,7 @@ import vueNumeralFilterInstaller from 'vue-numeral-filter';
 import lodash from 'lodash';
 import router from './router/router';
 import KProgress from 'k-progress';
+import Vuebar from 'vuebar';
 import SvgIcon from '@/components/common/SvgIcon.vue';
 
 import './assets/css/main.css';
@@ -18,6 +19,7 @@ Vue.component('svg-vue', SvgIcon);
 Vue.component('v-select', vSelect);
 Vue.use(vueNumeralFilterInstaller, { locale: 'en' });
 Vue.use(VueLodash, { name: 'custom', lodash: lodash });
+Vue.use(Vuebar);
 Vue.component('k-progress', KProgress);
 
 new Vue({

@@ -7,7 +7,7 @@
 
           <router-link :to="item.alias" append class="text-white" v-for="(item, i) in news" :key="i">
             <div id="news-card" class="flex mb-5">
-              <img :src="'../../assets/img/news/' + item.img + '.jpg'" alt="" class="rounded">
+              <img :src="require(`../../assets/img/news/${item.img}.jpg`)" alt="" class="rounded">
               <div class="ml-4 flex flex-column justify-between">
                 <div class="flex flex-column">
                   <span class="uppercase font-bold">{{ item.header }}</span>

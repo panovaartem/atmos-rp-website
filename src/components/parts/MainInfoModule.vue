@@ -10,9 +10,17 @@
     <p class="my-8">Lorem ipsum nibh elementum commodo lectus sit, bibendum eu a cursus arcu mauris sagittis diam tempus porta amet auctor 
       leo quam nec non eros. At, maecenas diam maecenas, urna auctor elementum quisque rutrum ipsum nec pellentesque. Quisque: 
       nam sit justo urna integer, molestie donec sodales  </p>
-    <span class="p-3 rounded document-version ">
+    <p class="p-3 rounded document-version ">
         urna auctor elementum quisque rutrum ipsum nec pellentesque. 
-    </span>
+    </p>
+    <p class="my-8">Lorem ipsum nibh elementum commodo lectus sit, bibendum eu a cursus arcu mauris sagittis diam tempus porta amet auctor 
+      leo quam nec non eros. At, maecenas diam maecenas, urna auctor elementum quisque rutrum ipsum nec pellentesque. Quisque: 
+      nam sit justo urna integer, molestie donec sodales  </p>
+    <p class="p-3 rounded document-version ">
+      Lorem ipsum nibh elementum commodo lectus sit, bibendum eu a cursus arcu mauris sagittis diam tempus porta amet auctor 
+      leo quam nec non eros. At, maecenas diam maecenas, urna auctor elementum quisque rutrum ipsum nec pellentesque. Quisque: 
+      nam sit justo urna integer, molestie donec sodales
+    </p>
     <p class="my-8">Lorem ipsum nibh elementum commodo lectus sit, bibendum eu a cursus arcu mauris sagittis diam tempus porta amet auctor 
       leo quam nec non eros. At, maecenas diam maecenas, urna auctor elementum quisque rutrum ipsum nec pellentesque. Quisque: 
       nam sit justo urna integer, molestie donec sodales  </p>
@@ -38,5 +46,5 @@
   .document-version {
     background-color: rgba(242, 242, 242, 0.1);
     border: 1px solid rgba(242, 242, 242, 0.3);
-    }
+  }
 </style>
