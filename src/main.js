@@ -6,6 +6,7 @@ import vueNumeralFilterInstaller from 'vue-numeral-filter';
 import lodash from 'lodash';
 import router from './router/router';
 import KProgress from 'k-progress';
+import SvgIcon from './components/common/SvgIcon.vue';
 
 import './assets/css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,6 +14,7 @@ import 'bootstrap';
 
 Vue.config.productionTip = false
 
+Vue.component('svg-vue', SvgIcon);
 Vue.component('v-select', vSelect);
 Vue.use(vueNumeralFilterInstaller, { locale: 'en' });
 Vue.use(VueLodash, { name: 'custom', lodash: lodash });
