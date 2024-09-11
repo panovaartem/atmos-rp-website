@@ -22,8 +22,7 @@
             <div class="rounded p-3 document-version flex items-center w-full justify-between ">
               <div class="flex ml-2">
                 <div id="player-online"></div>
-                <!-- <img src="/img/profile/ava.png" alt="" style="widht:65px; height:65px;"> -->
-                <img src="#" alt="" style="widht:65px; height:65px;">
+                <img src="@/assets/img/profile/ava.png" alt="" style="widht:65px; height:65px;">
                 <div class="flex flex-column  ml-4">
                   <h2>Jesse Redman</h2>
                   <span class="text-base opacity-75 -mt-2">Привелегия: <span
@@ -55,8 +54,7 @@
       <div id ="grid-component">
         <div class="document-version rounded flex p-3">
           <div>
-            <!-- <img src="/img/profile/taxes-money.png" alt="" style="widht:65px; height:65px;"> -->
-            <img src="#" alt="" style="widht:65px; height:65px;">
+            <img src="@/assets/img/profile/taxes-money.png" alt="" style="widht:65px; height:65px;">
           </div>
           <div class="ml-3">
             <h4>Cтавки по налогам снижены - <span class="uppercase text-yellow-500 font-bold opacity-75">gold</span></h4>

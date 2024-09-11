@@ -78,7 +78,7 @@
   }
 
   .bgi {
-    // background-image: url('/img/breadcrumbs.jpg');
+    background-image: url('../../assets/img/breadcrumbs.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }

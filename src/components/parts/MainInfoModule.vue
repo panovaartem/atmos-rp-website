@@ -31,7 +31,7 @@
 
 <style lang="less">
   #info-img {
-    // background-image: url('/img/info/infoBase.jpg');
+    background-image: url('../../assets/img/info/infoBase.jpg');
     background-repeat: no-repeat;
     height: 120px;
   }

@@ -51,17 +51,17 @@
       gap: 30px;
     }
   .img-style-1 {
-    // background: linear-gradient(180deg, rgba(15, 16, 20, 0) 0%, #0F1014 100%), url("/img/donate/stock.jpg") no-repeat;
+    background: linear-gradient(180deg, rgba(15, 16, 20, 0) 0%, #0F1014 100%), url("../../assets/img/donate/stock.jpg") no-repeat;
     height: 300px;
     background-size: cover;
   }
   .img-style-2 {
-    // background: linear-gradient(180deg, rgba(15, 16, 20, 0) 0%, #0F1014 100%), url("/img/donate/cargo.jpg") no-repeat;
+    background: linear-gradient(180deg, rgba(15, 16, 20, 0) 0%, #0F1014 100%), url("../../assets/img/donate/cargo.jpg") no-repeat;
     height: 300px;
     background-size: cover;
   }
   .img-style-3 {
-    // background: linear-gradient(180deg, rgba(15, 16, 20, 0) 0%, #0F1014 100%), url("/img/donate/stack.jpg") no-repeat;
+    background: linear-gradient(180deg, rgba(15, 16, 20, 0) 0%, #0F1014 100%), url("../../assets/img/donate/stack.jpg") no-repeat;
     height: 300px;
     background-size: cover;
   }

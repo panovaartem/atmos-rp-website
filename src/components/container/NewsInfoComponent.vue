@@ -20,8 +20,7 @@
 
             <div class="flex justify-start ml-5">
               <div class="rounded p-3 document-version flex items-center ">
-                <!-- <img src="/img/profile/ava.png" alt=""> -->
-                <img src="#" alt="">
+                <img src="@/assets/img/profile/ava.png" alt="">
                 <div class="flex flex-column  ml-4">  
                   <span class="font-bold">Jesse Redman</span>
                   <span class="text-base">Administrator</span>
@@ -42,8 +41,7 @@
                 leo quam nec non eros. At, maecenas diam maecenas, urna auctor elementum quisque rutrum ipsum nec pellentesque. Quisque: 
                 nam sit justo urna integer, molestie donec sodales  </p>
                 <div class="flex mb-5">
-                  <!-- <img src="/img/news/1.jpg" alt="" style="width:330px; height:200px;" class="rounded"> -->
-                  <img src="#" alt="" style="width:330px; height:200px;" class="rounded">
+                  <img src="@/assets/img/news/1.jpg" alt="" style="width:330px; height:200px;" class="rounded">
                   <div class="ml-5">
                     <h4>Lorem ipsum dolor sit</h4>
                     <ul class="list-disc ml-3 text-base mt-3 opacity-75" style="line-height:180%;">
@@ -84,7 +82,7 @@
 
 <style lang="less">
 #img-news-info {
-  // background-image: url('/img/news/borderNewsInfo.jpg');
+  background-image: url('../../assets/img/news/borderNewsInfo.jpg');
   background-repeat: no-repeat;
   height: 180px;
  }

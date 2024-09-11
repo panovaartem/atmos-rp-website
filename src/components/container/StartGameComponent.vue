@@ -9,8 +9,7 @@
             <div class="p-8 mt-2">
               <h2 class="font-bold">Лицензция игры</h2>
               <span class="start-block opacity-75 font-light">Для игры на наших серверах необходимо иметь лицензию игры GTA 5</span>
-              <!-- <img src="/img/start/1.jpg" alt="#" class="w-full h-auto mt-2 object-cover rounded"> -->
-              <img src="#" alt="#" class="w-full h-auto mt-2 object-cover rounded">
+              <img src="@/assets/img/start/1.jpg" alt="#" class="w-full h-auto mt-2 object-cover rounded">
             </div>
             <button class="flex items-center justify-between w-full bg-buttonstart py-3 px-4">
               <div class="w-10 h-10 bg-black bg-opacity-50 flex items-center justify-center rounded">
@@ -27,8 +26,7 @@
             <div class="p-8 mt-2">
               <h2 class="font-bold">RAGE MP Лаунчер</h2>
               <span class="start-block opacity-75 font-light">Для подключения к серверу необходимо скачать лаунчер RAGE MP</span>
-              <!-- <img src="/img/start/2.jpg" alt="#" class="w-full h-auto mt-2 object-cover rounded"> -->
-              <img src="#" alt="#" class="w-full h-auto mt-2 object-cover rounded">
+              <img src="@/assets/img/start/2.jpg" alt="#" class="w-full h-auto mt-2 object-cover rounded">
             </div>
             <button class="flex items-center justify-between w-full bg-buttonstart py-3 px-4">
               <div class="w-10 h-10 bg-black bg-opacity-50 flex items-center justify-center rounded">
@@ -45,8 +43,7 @@
             <div class="p-8 mt-2">
               <h2 class="font-bold">Регистрация</h2>
               <span class="start-block opacity-75 font-light">Вы можете зарегистрировать аккаунт в игре или на сайте, после чего можно играть</span>
-              <!-- <img src="/img/start/3.jpg" alt="#" class="w-full h-auto mt-2 object-cover rounded"> -->
-              <img src="#" alt="#" class="w-full h-auto mt-2 object-cover rounded">
+              <img src="@/assets/img/start/3.jpg" alt="#" class="w-full h-auto mt-2 object-cover rounded">
             </div>
             <button class="flex items-center justify-between w-full bg-buttonstart py-3 px-4">
               <div class="w-10 h-10 bg-black bg-opacity-50 flex items-center justify-center rounded">

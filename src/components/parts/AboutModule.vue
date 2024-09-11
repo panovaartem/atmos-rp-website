@@ -32,8 +32,7 @@
         </div>
         <div class="w-1/2">
           <div id="card-image" class="rounded ml-12">
-            <!-- <img src="/img/about.jpg" alt=""> -->
-            <img src="#" alt="">
+            <img src="@/assets/img/about.jpg" alt="">
           </div>
         </div> 
       </div>

@@ -42,21 +42,21 @@
 
 <style lang="less">
   .img-car-1 {  
-    // background-image: url("/img/profile/car1.jpg");
+    background-image: url("../../assets/img/profile/car1.jpg");
     height: 140px;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .img-car-3 {  
-    // background-image: url("/img/profile/car2.jpg");
+    background-image: url("../../assets/img/profile/car2.jpg");
     height: 140px;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .img-car-2 {  
-    // background-image: url("/img/profile/car3.jpg");
+    background-image: url("../../assets/img/profile/car3.jpg");
     height: 140px;
     background-repeat: no-repeat;
     background-size: cover;

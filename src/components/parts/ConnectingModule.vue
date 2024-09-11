@@ -31,7 +31,7 @@
     width: 100%;
     height: 180px;
     border: 1px solid rgba(242, 242, 242, 0.3);
-    // background-image: url('/img/start/connect.jpg');
+    background-image: url('../../assets/img/start/connect.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;

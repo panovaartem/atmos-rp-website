@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     background-color: #0F1014;
-    // background-image: url('/img/background.png');
+    background-image: url('./assets/img/background.png');
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
     font-family: 'Rubik', sans-serif;

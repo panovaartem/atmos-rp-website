@@ -12,8 +12,7 @@
           </div>
         </div>
         <div class="flex items-center flex-column">
-          <!-- <img src="/img/start/info.jpg" alt="" class="mt-4 rounded"> -->
-          <img src="#" alt="" class="mt-4 rounded">
+          <img src="@/assets/img/start/info.jpg" alt="" class="mt-4 rounded">
           <span class="opacity-50 mt-4">Или вписать в поиск ключевое слово “ATMOS” и выбрать наш сервер врунчую</span>
         </div>
       </div>

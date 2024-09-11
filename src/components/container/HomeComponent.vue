@@ -13,8 +13,7 @@
             <span class="uppercase ml-6">Начать играть</span>
           </button>
         </div>
-        <!-- <img class="w-1/3 w-auto" src="/img/person.png" alt="#"> -->
-        <img class="w-1/3 w-auto" src="#" alt="#">
+        <img class="w-1/3 w-auto" src="@/assets/img/person.png" alt="#">
       </div>
     </div>
     <BonusModule />

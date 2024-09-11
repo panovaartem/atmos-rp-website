@@ -3,8 +3,7 @@
     <div>
       <div class="uppercase font-bold"><span>Скидки</span><span class="ml-2 opacity-50">Рюкзак “Выживший”</span></div>
       <div id="bonus-card" class="w-auto mt-3 bonus-card rounded flex">
-        <!-- <img src="/img/news/backpack.jpg" alt="" class="object-cover rounded"> -->
-        <img src="#" alt="" class="object-cover rounded">
+        <img src="@/assets/img/news/backpack.jpg" alt="" class="object-cover rounded">
         <div class="flex flex-col justify-between">
           <div class="flex flex-col">
             <span class="uppercase font-bold">Рюкзак</span>
@@ -21,8 +20,7 @@
     <div>
       <div class="uppercase font-bold  mt-8"><span>Бонус недели</span><span class="ml-2 opacity-50">Опыт рыбалки</span></div>
       <div id="bonus-card" class="w-auto mt-3 bonus-card rounded flex">
-        <!-- <img src="/img/news/fish.jpg" alt="" class="object-cover rounded"> -->
-        <img src="#" alt="" class="object-cover rounded">
+        <img src="@/assets/img/news/fish.jpg" alt="" class="object-cover rounded">
         <div class="flex flex-col justify-between">
           <div class="flex flex-col">
             <span class="uppercase font-bold">Опыт</span>

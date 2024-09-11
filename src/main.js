@@ -7,6 +7,7 @@ import lodash from 'lodash';
 import router from './router/router';
 import KProgress from 'k-progress';
 
+import './icons.js';
 import './assets/css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
