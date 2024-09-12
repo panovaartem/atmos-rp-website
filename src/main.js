@@ -9,7 +9,7 @@ import KProgress from 'k-progress';
 import Vuebar from 'vuebar';
 import SvgIcon from '@/components/common/SvgIcon.vue';
 
-import './assets/css/main.css';
+import './assets/css/main.less';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 

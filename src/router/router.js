@@ -8,6 +8,7 @@ import Donation from '../components/container/DonationComponent.vue';
 import DonationInfo from '../components/container/DonationInfoComponent.vue';
 import BaseInfo from '../components/container/BaseInfoComponent.vue';
 import Profile from '../components/container/ProfileComponent.vue';
+import Forum from '../components/container/ForumComponent.vue';
 
 
 
@@ -64,7 +65,10 @@ let router = new Router({
       props: { data: 'Главная' }
     },
     {
-      path: '/forum'
+      path: '/forum',
+      name: 'Форум',
+      component: Forum,
+      props: { data: 'Форум' }
     },
     {
       path: '*', 

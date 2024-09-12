@@ -2,29 +2,29 @@
   <section>
     <BreadcrumbsModule :data="data" :social="true" />
     <div class="container-xxl mt-12">
-      <div class="flex">
-        <div class="w-2/3" id="component-news">
+      <div class="flex flex-col md:flex-row">
+        <div class="md:w-2/3 w-full" id="component-news">
 
           <router-link :to="item.alias" append class="text-white" v-for="(item, i) in news" :key="i">
-            <div id="news-card" class="flex mb-5">
+            <div id="news-card" class="flex flex-col sm:flex-row mb-5">
               <img :src="require(`../../assets/img/news/${item.img}.jpg`)" alt="" class="rounded">
-              <div class="ml-4 flex flex-column justify-between">
-                <div class="flex flex-column">
-                  <span class="uppercase font-bold">{{ item.header }}</span>
-                  <span class="opacity-75 mt-1 font-light">{{ item.short_discrition }}</span>
+              <div class="sm:ml-4 mt-4 sm:mt-0 flex flex-col justify-between">
+                <div class="flex flex-col">
+                  <span class="uppercase font-bold text-base sm:text-lg">{{ item.header }}</span>
+                  <span class="opacity-75 mt-1 font-light text-sm sm:text-base">{{ item.short_discrition }}</span>
                 </div>
-                <div class="flex items-center">
+                <div class="flex items-center mt-2 sm:mt-0">
                   <svg-vue icon="like" style="width: 16px; height: 16px;" />
-                  <span class="text-base ml-1">{{ item.likes }}</span>
+                  <span class="text-sm sm:text-base ml-1">{{ item.likes }}</span>
                   <svg-vue icon="date" style="width: 16px; height: 16px;" class="ml-4" />
-                  <span class="text-base ml-1">{{ item.date }}</span>
+                  <span class="text-sm sm:text-base ml-1">{{ item.date }}</span>
                 </div>
-                <div class="horizontal-line "></div>
+                <div class="horizontal-line"></div>
               </div>
             </div>
           </router-link>
-      
-          <div id="pagination" class="flex mb-5">
+
+          <div id="pagination" class="flex mb-5 justify-center md:justify-start">
             <div class="flex">
               <div id="container-pagination" class="rounded flex justify-center items-center">
                 <svg-vue icon="arrow" style="width: 26px; height: 26px;" />
@@ -47,7 +47,7 @@
             </div>
           </div>
         </div>
-        <div class="w-1/3" id="component-news">
+        <div class="md:w-1/3 w-full mt-10 md:mt-0" id="component-news">
           <RightSideEvents />
         </div>
       </div>
@@ -144,9 +144,10 @@
 
   #news-card {
     img {
-      width: 140px;
-      height: 135px;
+      width: 100%;
+      height: auto;
       object-fit: cover;
+      max-width: 140px; // ограничиваем ширину на больших экранах
     }
 
     &:hover {
@@ -163,5 +164,14 @@
     width: 50px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  @media (max-width: 640px) {
+    #component-news {
+      font-size: 16px; // уменьшаем шрифт на мобильных устройствах
+    }
+    #news-card {
+      font-size: 14px; // уменьшаем шрифт карточек на мобильных устройствах
+    }
   }
 </style>

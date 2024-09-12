@@ -1,8 +1,5 @@
 <template>
-  <div v-bar="{
-    preventParentScroll: true,
-    scrollThrottle: 30,
-}">
+  <div v-bar="{ preventParentScroll: true, scrollThrottle: 30 }">
     <div id="main" class="text-white">
       <div id="content">
         <Header />
@@ -14,8 +11,8 @@
 </template>
 
 <script>
-  import Header from './components/layouts/HeaderComponent.vue'
-  import Footer from './components/layouts/FooterComponent.vue'
+  import Header from '@/components/layouts/HeaderComponent.vue'
+  import Footer from '@/components/layouts/FooterComponent.vue'
 
   export default {
     components: {

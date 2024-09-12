@@ -6,13 +6,12 @@ module.exports = defineConfig({
 
     svgRule.uses.clear();
     
-    // prevent injection of webpack-5 asset loaders
     svgRule.delete('type');
     svgRule.delete('generator');
 
     svgRule
       .use('vue-loader')
-      .loader('vue-loader') // or `vue-loader-v16` if you are using a preview support of Vue 3 in Vue CLI
+      .loader('vue-loader')
       .end()
       .use('vue-svg-loader-2')
       .loader('vue-svg-loader-2');
@@ -21,7 +20,7 @@ module.exports = defineConfig({
   css: {
     loaderOptions: {
       less: {
-        additionalData: `@import "@/assets/css/variables.less";`
+        additionalData: `@import "@/assets/css/main.less";`
       }
     }
   }

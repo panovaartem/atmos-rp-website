@@ -13,10 +13,10 @@
           <svg-vue icon="news" style="width: 16px; height: 16px;" />
           <span class="ml-2 text-lg">Новости</span>
         </router-link>
-        <a href="http://atmos-rp.test/forum/" class="flex items-center ml-10 text-white" exact>
+        <router-link :to="{ name:'Форум' }" class="flex items-center ml-10 text-white" exact>
           <svg-vue icon="forum" style="width: 16px; height: 16px;" />
           <span class="ml-2 text-lg">Форум</span>
-        </a>
+        </router-link>
         <router-link :to="{ name:'База знаний' }" class="flex items-center ml-10 text-white" exact>
           <svg-vue icon="info" style="width: 16px; height: 16px;" />
           <span class="ml-2 text-lg">База знаний</span>
@@ -46,6 +46,10 @@
 </script>
 
 <style lang="less">
+  a, .router-link {
+    text-decoration: none !important;  // Отключает подчеркивание для всех ссылок
+  }
+
   #header {
     height: 100px;
   }
@@ -57,6 +61,10 @@
 
     a {
       opacity: 0.5;
+    }
+
+    a:hover {
+      opacity: 1;
     }
   }
 
