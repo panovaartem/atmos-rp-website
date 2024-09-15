@@ -7,8 +7,8 @@
 
           <router-link :to="item.alias" append class="text-white" v-for="(item, i) in news" :key="i">
             <div id="news-card" class="flex flex-col sm:flex-row mb-5">
-              <img :src="require(`../../assets/img/news/${item.img}.jpg`)" alt="" class="rounded">
-              <div class="sm:ml-4 mt-4 sm:mt-0 flex flex-col justify-between">
+              <img :src="require(`@/assets/img/news/${item.img}.jpg`)" alt="" class="rounded">
+              <div class="sm:ml-4 sm:mt-0 flex flex-col justify-between">
                 <div class="flex flex-col">
                   <span class="uppercase font-bold text-base sm:text-lg">{{ item.header }}</span>
                   <span class="opacity-75 mt-1 font-light text-sm sm:text-base">{{ item.short_discrition }}</span>
@@ -56,8 +56,8 @@
 </template>
 
 <script>
-  import BreadcrumbsModule from '../parts/BreadcrumbsModule.vue';
-  import RightSideEvents from '../parts/RightSideEvents.vue';
+  import BreadcrumbsModule from '@/components/modules/BreadcrumbsModule.vue';
+  import RightSideEvents from '@/components/modules/RightSideEvents.vue';
 
   export default {
     data() {

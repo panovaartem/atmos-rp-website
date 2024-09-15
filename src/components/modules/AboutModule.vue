@@ -1,12 +1,15 @@
 <template>
   <div>
     <div class="horizontal-line "></div>
-    <div class="container-xxl mb-16 mt-16">
-      <div class="flex">
-        <div class="w-1/2 pr-12">
+    <div class="mt-16">
+      <div class="flex flex-col lg:flex-row gap-8">
+        <div class="w-full lg:w-1/2">
           <h2 class="font-bold">Особенности проекта</h2>
           <p class="mt-3">
-            Наша цель — максимально приблизить игру к реальной модели мира. Это не означает, что мы ограничиваем вашу свободу. Напротив, мы предоставляем вам полную свободу действий. Однако каждый ваш шаг должен соответствовать тому, как вы поступили бы в реальной жизни.
+            Проект ATMOS RP для GTA 5 направлен на полное погружение в мир выживания. 
+            Это не ограничивает вашу свободу действий — наоборот, вы вольны поступать 
+            так, как считаете нужным. Однако каждый ваш шаг должен отражать реальный выбор 
+            в условиях борьбы за ресурсы, выживания и противостояния анклавам.
           </p>
           <div class="horizontal-line"></div>
           <div class="flex justify-between mt-4">
@@ -15,8 +18,8 @@
               <span class="opacity-50">Игроков</span>
             </div>
             <div class="flex flex-column">
-              <span class="text-3xl font-bold">15</span>
-              <span class="opacity-50">Организаций</span>
+              <span class="text-3xl font-bold">16</span>
+              <span class="opacity-50">Анклавов</span>
             </div>
             <div class="flex flex-column">
               <span class="text-3xl font-bold">874</span>
@@ -28,8 +31,8 @@
             </div>
           </div>
         </div>
-        <div class="w-1/2">
-          <div id="card-image" class="rounded ml-12">
+        <div class="w-full lg:w-1/2">
+          <div id="card-image" class="rounded h-full">
             <img src="@/assets/img/about.jpg" alt="">
           </div>
         </div> 

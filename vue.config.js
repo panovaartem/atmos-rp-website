@@ -20,7 +20,7 @@ module.exports = defineConfig({
   css: {
     loaderOptions: {
       less: {
-        additionalData: `@import "@/assets/css/main.less";`
+        additionalData: `@import "@/assets/styles/main.less";`
       }
     }
   }

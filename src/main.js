@@ -4,12 +4,12 @@ import VueLodash from 'vue-lodash';
 import vSelect from 'vue-select';
 import vueNumeralFilterInstaller from 'vue-numeral-filter';
 import lodash from 'lodash';
-import router from './router/router';
+import router from './router';
 import KProgress from 'k-progress';
 import Vuebar from 'vuebar';
 import SvgIcon from '@/components/common/SvgIcon.vue';
 
-import './assets/css/main.less';
+import './assets/styles/main.less';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 

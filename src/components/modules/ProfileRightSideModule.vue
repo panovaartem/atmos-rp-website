@@ -21,8 +21,9 @@
         <span >Лицензии</span>
         <div class="flex justify-between mr-3 profile-border rounded p-3 mt-2">
 
-          <div :class="item.status" class="rounded p-2"  v-for="(item, i) in license" :key="i">
-            <div v-if="item.check" class="check rounded-full"><svg-vue icon="checcircleoutline" />
+          <div :class="item.status" class="rounded p-2"  v-for="(item, i) in license" :key="i" style="position: relative;">
+            <div v-if="item.check" class="check rounded-full">
+              <svg-vue icon="checcircleoutline" />
             </div>
             <svg-vue :icon="item.icon" style="width: 50px; height: 50px;" />
           </div>

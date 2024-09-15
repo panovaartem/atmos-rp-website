@@ -2,7 +2,7 @@
   <section>
     <BreadcrumbsModule :data="data" :social="true" />
     <div class="container-xxl">
-      <div class="flex mt-16">
+      <div class="flex mt-16 gap-8">
         <div class="w-1/3" id="grid-component">
           <div class="start-card rounded">
             <div class="start-number w-12 h-12 bg-white rounded flex justify-center items-center"><span class="text-black text-3xl font-bold">1</span></div>
@@ -55,16 +55,16 @@
           </div>
         </div>
       </div>
+      <ConnectingHelp />
     </div>
     <ConnectingModule v-if="server" :server="server" />
-    <ConnectingHelp />
   </section>
 </template>
 
 <script>
-  import BreadcrumbsModule from '../parts/BreadcrumbsModule.vue';
-  import ConnectingModule from '../parts/ConnectingModule.vue';
-  import ConnectingHelp from '../parts/ConnectingHelp.vue';
+  import BreadcrumbsModule from '@/components/modules/BreadcrumbsModule.vue';
+  import ConnectingModule from '@/components/modules/ConnectingModule.vue';
+  import ConnectingHelp from '@/components/modules/ConnectingHelp.vue';
 
   export default {
     data() {

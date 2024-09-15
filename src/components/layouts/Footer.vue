@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <div class="mt-32">
     <div class="horizontal-line"></div>
-    <div id="footer" class="container-xxl flex items-center justify-between">
+    <div id="footer" class="container flex items-center justify-between">
       <div class="flex items-center">
         <router-link :to="{ name: 'Главная' }">
-          <svg-vue icon="logo" style="width: 136px; height: 35px;" />
+          <svg-vue icon="logo-color" style="width: 139px; height: 35px;" />
         </router-link>
-        <span class="ml-16 opacity-25">© 2024 atmos-rp — </span><a href="#" class="ml-1">@xttago</a>
+        <span class="ml-16 opacity-25">© 2024 ATMOS-RP — </span><a href="#" class="ml-1">@xttago</a>
       </div>
       <div class="flex items-center">
         <a href="#"><svg-vue icon="vk" style="width: 28px; height: 28px;" class="opacity-50 hover:opacity-100" /></a>

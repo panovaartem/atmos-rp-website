@@ -21,8 +21,10 @@
           <div class="flex ">
             <div class="rounded p-3 document-version flex items-center w-full justify-between ">
               <div class="flex ml-2">
-                <div id="player-online"></div>
-                <img src="@/assets/img/profile/ava.png" alt="" style="widht:65px; height:65px;">
+                <div style="position: relative;">
+                  <div id="player-online"></div>
+                  <img src="@/assets/img/profile/ava.png" alt="" style="widht:65px; height:65px;">
+                </div>
                 <div class="flex flex-column  ml-4">
                   <h2>Jesse Redman</h2>
                   <span class="text-base opacity-75 -mt-2">Привелегия: <span
@@ -78,13 +80,13 @@
 </template>
 
 <script>
-  import BreadcrumbsModule from '../parts/BreadcrumbsModule.vue';
-  import StatisticBonusModule from '../parts/StatisticBonusModule.vue';
-  import AutomobileModule from '../parts/AutomobileModule.vue';
-  import ProfileRightSideModule from '../parts/ProfileRightSideModule.vue';
-  import WorkSkillsModule from '../parts/WorkSkillsModule.vue';
-  import GunSkillModule from '../parts/GunSkillModule.vue';
-  import UpgradeModule from '../parts/UpgradeModule.vue';
+  import BreadcrumbsModule from '@/components/modules/BreadcrumbsModule.vue';
+  import StatisticBonusModule from '@/components/modules/StatisticBonusModule.vue';
+  import AutomobileModule from '@/components/modules/AutomobileModule.vue';
+  import ProfileRightSideModule from '@/components/modules/ProfileRightSideModule.vue';
+  import WorkSkillsModule from '@/components/modules/WorkSkillsModule.vue';
+  import GunSkillModule from '@/components/modules/GunSkillModule.vue';
+  import UpgradeModule from '@/components/modules/UpgradeModule.vue';
   
   
   export default {
@@ -223,7 +225,7 @@
           },
           {
             icon: "sea-life-1",
-            name: "Рыбалов",
+            name: "Рыболов",
             lvl: 14
           },
           {

@@ -6,7 +6,7 @@
       </div>
       <div class="ml-3">
         <span class="text-green-500">{{ item.amount | numeral('$0,0') }}</span>
-        <h4 class="mt-1">{{ item.price }} руб.</h4>
+        <h5 class="mt-1">{{ item.price }} руб.</h5>
       </div>
     </div>  
   </div>

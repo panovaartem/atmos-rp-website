@@ -2,13 +2,15 @@
   <section>
     <BreadcrumbsModule :data="data" :social="false" />
     <div class="container-xxl mt-12">
-      <div class="flex">
+      <div class="flex gap-8">
         <div class="w-1/3" id="grid-component">
           <v-select v-model="selected" :options="options" class="style-chooser" />
-          <input type="text" class="w-full rounded mt-4" placeholder="Логин вашего аккаунта">
-          <input type="number" class="w-full rounded mt-4" placeholder="Сумма пополнения">
-          <button class="btn-style-deposit bg-blue-500 hover:bg-blue-700 text-white font-bold rounded flex items-center w-full mt-4">
-            <div class="h-full w-16 bg-blue-700 flex justify-center rounded-l"><svg-vue icon="buy" style="width: 36px"/></div>
+          <input type="text" class="w-full rounded mt-4 p-3" placeholder="Логин вашего аккаунта">
+          <input type="number" class="w-full rounded mt-4 p-3" placeholder="Сумма пополнения">
+          <button class="btn-style-deposit bg-slate-600 hover:bg-slate-700 text-white font-bold rounded flex items-center w-full mt-4">
+            <div class="h-full w-16 bg-slate-700 flex justify-center items-center rounded-l">
+              <svg-vue icon="buy" style="width: 36px"/>
+            </div>
             <span class="px-4 uppercase ml-10">Пополнить счет</span>
           </button>
           <a href="" class="flex text-white opacity-50 justify-center mt-4 hover:opacity-100">
@@ -34,8 +36,8 @@
 </template>
 
 <script>
-  import BreadcrumbsModule from '../parts/BreadcrumbsModule.vue';
-  import DonationModule from '../parts/DonationModule.vue';
+  import BreadcrumbsModule from '@/components/modules/BreadcrumbsModule.vue';
+  import DonationModule from '@/components/modules/DonationModule.vue';
   import 'vue-select/dist/vue-select.css';
 
   export default {
@@ -92,6 +94,8 @@
   }
 
   .vs__dropdown-menu {
+    background-color: #0F1014;
+    border: 1px solid rgba(255, 255, 255, 0.15);
     color: white;
     opacity: 1;
   }

@@ -63,8 +63,8 @@
 </template>
 
 <script>
-  import BreadcrumbsModule from '../parts/BreadcrumbsModule.vue';
-  import RightSideEvents from '../parts/RightSideEvents.vue';
+  import BreadcrumbsModule from '@/components/modules/BreadcrumbsModule.vue';
+  import RightSideEvents from '@/components/modules/RightSideEvents.vue';
 
   export default {
     components: {
@@ -82,7 +82,7 @@
 
 <style lang="less">
 #img-news-info {
-  background-image: url('../../assets/img/news/borderNewsInfo.jpg');
+  background-image: url('@/assets/img/news/borderNewsInfo.jpg');
   background-repeat: no-repeat;
   height: 180px;
  }

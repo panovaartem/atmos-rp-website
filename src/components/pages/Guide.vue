@@ -2,15 +2,15 @@
   <section>
     <BreadcrumbsModule :data="data" :social="false" />
     <div class="container-xxl"> 
-      <div class="mt-12 flex">
+      <div class="mt-12 flex gap-8">
         <div class="w-1/6" id="grid-component" v-for="(item, i) in selection" :key="i">
           <div @click="selectInfo(i, item.name)" :class="{ active: i == activeItem }" class="w-full h-24 rounded flex flex-column items-center justify-center base-component" >
-            <svg-vue :icon="item.icon" style="min-width: 70px; min-height: 70px;" />
+            <svg-vue :icon="item.icon" style="width: 70px; height: 70px;" />
             <span class="uppercase mt-3 font-bold mb-3">{{ item.name }}</span>
           </div>
         </div>
       </div>
-      <div class="flex mt-12">
+      <div class="flex mt-12 gap-8">
         <div class="w-1/3" id="grid-component">
           <LeftSideBarModule :data="nameItem" @list="getList" />
         </div>
@@ -22,9 +22,9 @@
   </section>
 </template>
 <script>
-  import BreadcrumbsModule from '../parts/BreadcrumbsModule.vue';
-  import LeftSideBarModule from '../parts/LeftSideBarModule.vue';
-  import MainInfoModule from '../parts/MainInfoModule.vue';
+  import BreadcrumbsModule from '@/components/modules/BreadcrumbsModule.vue';
+  import LeftSideBarModule from '@/components/modules/LeftSideBarModule.vue';
+  import MainInfoModule from '@/components/modules/MainInfoModule.vue';
 
   export default {
     data() {
@@ -42,16 +42,16 @@
             icon: 'base'
           },
           {
-            name: 'Работы',
-            icon: 'job'
+            name: 'Анклавы',
+            icon: 'enclaves'
           },
           {
-            name: 'Организации',
-            icon: 'organization'
+            name: 'Зоны',
+            icon: 'zones'
           },
           {
-            name: 'Недвижимость',
-            icon: 'own'
+            name: 'Крафт',
+            icon: 'craft'
           },
           {
             name: 'Транспорт',
@@ -98,12 +98,12 @@
     }
   }
 
-  .active { 
-    background-color: rgba(47, 128, 237, 0.3);
-    border: 1px solid rgba(47, 128, 237, 1.0);
+  .active {
+    background-color: rgba(71, 85, 105, 0.5);
+    border: 1px solid #475569;
 
     &:hover {
-      background-color: rgba(47, 128, 237, 0.4);
+      background-color: #475569;
     }
   }
 </style>

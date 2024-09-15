@@ -1,7 +1,7 @@
 <template>
   <div>
-    <ul>
-      <li v-for="(item, i) in list" :key="i" >
+    <ul class="ml-0 pl-0">
+      <li v-for="(item, i) in list" :key="i" class="hover:opacity-50">
         <div @click="selectList(i, item.name, item.index)" class="flex items-center">
           <span>{{ item.index }}</span>
           <span :class="{ 'active-list': i == activeItem }" class="ml-3 opacity-50 hover:opacity-100 cursor-pointer">{{ item.name }}</span>
@@ -12,7 +12,9 @@
     <div class="mb-24 mt-10 w-full h-24 rounded flex flex-column items-center justify-center" id="social-help">
       <span>Не нашли ответ на вопрос?</span>
       <button class="btn-style bg-blue-500 hover:bg-blue-700 text-white font-bold rounded flex items-center justify-center">
-        <div class="h-full w-10 flex justify-center rounded-l"><svg-vue icon="vk" style="width: 28px"/></div>
+        <div class="h-full w-10 flex justify-center items-center mr-4 rounded-l">
+          <svg-vue icon="vk" style="width: 28px"/>
+        </div>
         <span class="font-normal uppercase font-bold text-lg ">Сообщество Вк</span>
       </button>
     </div>
@@ -102,7 +104,7 @@ export default {
     width: 346px;
   }
 
-   #social-help{
+  #social-help{
     background-color: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.15);
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container-xxl mt-10 mb-16">
+    <div class="mt-10 mb-16">
       <div class="connecting-help rounded p-6 flex flex-column">
         <div class="flex">
           <div id="connecting-info" class="flex items-center justify-center rounded">
@@ -30,7 +30,6 @@
   .connecting-help {
     background-color: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.15);
-    width: 100%;
 
     img {
       border: 1px solid rgba(242, 242, 242, 0.15);

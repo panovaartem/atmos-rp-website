@@ -8,7 +8,7 @@
         </div>
       </div>
       <div>
-        <ul>
+        <ul class="pl-0">
           <li class=" px-4 pb-1" v-for="(item, i) in list" :key="i">
             <div class="flex justify-between">
               <span class="opacity-50">{{ item.name }}</span>

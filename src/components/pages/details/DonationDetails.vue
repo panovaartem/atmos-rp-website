@@ -2,7 +2,7 @@
   <section>
     <BreadcrumbsModule :data="data" :social="false" />
     <div class="container-xxl mt-12">
-      <div class="flex">
+      <div class="flex gap-8">
         <div class="w-1/3" id="grid-component">
 
           <div class="w-full rounded flex justify-center items-center flex-column">
@@ -13,9 +13,9 @@
           </div>
            
           <StatisticBonusModule :list="list" :header="header" :warn="false"/>
-          <button class="btn-style-deposit bg-blue-500 hover:bg-blue-700 text-white font-bold rounded flex items-center w-full mt-8">
-            <div class="h-full w-16 bg-blue-700 flex justify-center rounded-l"><svg-vue icon="buy" style="width: 36px"/></div>
-            <span class="px-4 uppercase ml-6">Купить {{$route.params.id}} статус</span>
+          <button class="btn-style-deposit bg-slate-600 hover:bg-slate-700 text-white font-bold rounded flex items-center w-full mt-8">
+            <div class="h-full w-16 bg-slate-700 flex justify-center rounded-l"><svg-vue icon="buy" style="width: 36px"/></div>
+            <span class="px-4 uppercase ml-12">Купить статус</span>
           </button>
         </div>
         
@@ -38,9 +38,9 @@
 </template>
 
 <script>
-  import BreadcrumbsModule from '../parts/BreadcrumbsModule.vue';
-  import StatisticBonusModule from '../parts/StatisticBonusModule.vue';
-  import DonationBlockModule from '../parts/DonationBlockModule.vue';
+  import BreadcrumbsModule from '@/components/modules/BreadcrumbsModule.vue';
+  import StatisticBonusModule from '@/components/modules/StatisticBonusModule.vue';
+  import DonationBlockModule from '@/components/modules/DonationBlockModule.vue';
 
   export default {
     data() {

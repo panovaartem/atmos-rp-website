@@ -1,8 +1,8 @@
 <template>
   <div v-bar="{ preventParentScroll: true, scrollThrottle: 30 }">
     <div id="main" class="text-white">
+      <Header />
       <div id="content">
-        <Header />
         <router-view />
       </div>
       <Footer id="footer-container" />
@@ -11,8 +11,8 @@
 </template>
 
 <script>
-  import Header from '@/components/layouts/HeaderComponent.vue'
-  import Footer from '@/components/layouts/FooterComponent.vue'
+  import Header from '@/components/layouts/Header.vue'
+  import Footer from '@/components/layouts/Footer.vue'
 
   export default {
     components: {
@@ -27,7 +27,7 @@
 
 <style lang="less">
   #main {
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #0F1014;
@@ -38,10 +38,10 @@
   }
 
   #content {
-    flex: 1 0 auto;
+    flex: 1;
   }
   
   #footer-container {
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
   }
 </style>
