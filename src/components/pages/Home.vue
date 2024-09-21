@@ -1,7 +1,7 @@
 <template>
   <section class="container mx-auto px-4">
-    <div class="flex flex-col lg:flex-row items-center lg:items-start mt-3 lg:mt-16">
-      <div class="lg:w-2/3 lg:pr-12 mt-10 mb-8 md:mb-12">
+    <div class="flex flex-col lg:flex-row justify-between items-end mt-3 lg:mt-16">
+      <div class="lg:w-1/2 lg:pr-12 mt-10 mb-8 md:mb-12">
         <div class="flex space-x-3">
           <span class="badge-style rounded">Roleplay</span>
           <span class="badge-style rounded">Atmosphere</span>
@@ -18,7 +18,7 @@
           <span class="uppercase ml-6 mr-3">Начать играть</span>
         </button>
       </div>
-      <img class="hidden lg:block w-full md:w-auto lg:w-1/3 mt-6 lg:mt-0" src="@/assets/img/person.png" alt="Person">
+      <img class="hidden lg:block w-full md:w-1/2 lg:w-1/3 mt-6 lg:mt-0" src="@/assets/img/person.png" alt="Person">
     </div>
     <BonusModule />
     <AboutModule />

@@ -16,8 +16,7 @@ Vue.use(Router);
 
 let router = new Router({
   mode: 'history',
-  routes: [
-    {
+  routes: [{
       path: '/',
       name: 'Главная',
       component: Home,
@@ -29,7 +28,9 @@ let router = new Router({
       path: '/news',
       name: 'Новости',
       component: News,
-      props: { data: 'Главная' },
+      props: {
+        data: 'Главная'
+      },
       meta: {
         title: 'ATMOS-RP | Новости'
       }
@@ -38,7 +39,9 @@ let router = new Router({
       path: '/news/:id',
       name: null,
       component: NewsInfo,
-      props: { data: 'Новости' },
+      props: {
+        data: 'Новости'
+      },
       meta: {
         title: 'ATMOS-RP | Новости'
       }
@@ -47,7 +50,9 @@ let router = new Router({
       path: '/startgame',
       name: 'Начало игры',
       component: StartGame,
-      props: { data: 'Главная' },
+      props: {
+        data: 'Главная'
+      },
       meta: {
         title: 'ATMOS-RP | Начало игры'
       }
@@ -56,7 +61,9 @@ let router = new Router({
       path: '/donat',
       name: 'Донат',
       component: Donation,
-      props: { data: 'Главная' },
+      props: {
+        data: 'Главная'
+      },
       meta: {
         title: 'ATMOS-RP | Донат'
       }
@@ -65,7 +72,9 @@ let router = new Router({
       path: '/donat/:id',
       name: null,
       component: DonationInfo,
-      props: { data: 'Донат' },
+      props: {
+        data: 'Донат'
+      },
       meta: {
         title: 'ATMOS-RP | Донат'
       }
@@ -74,7 +83,9 @@ let router = new Router({
       path: '/baseinfo',
       name: 'База знаний',
       component: BaseInfo,
-      props: { data: 'Главная' },
+      props: {
+        data: 'Главная'
+      },
       meta: {
         title: 'ATMOS-RP | База  знаний'
       }
@@ -83,7 +94,9 @@ let router = new Router({
       path: '/profile',
       name: 'Профиль',
       component: Profile,
-      props: { data: 'Главная' },
+      props: {
+        data: 'Главная'
+      },
       meta: {
         title: 'ATMOS-RP | Профиль'
       }
@@ -92,13 +105,15 @@ let router = new Router({
       path: '/forum',
       name: 'Форум',
       component: Forum,
-      props: { data: 'Главная' },
+      props: {
+        data: 'Главная'
+      },
       meta: {
         title: 'ATMOS-RP | Форум'
       }
     },
     {
-      path: '*', 
+      path: '*',
       redirect: '/'
     }
   ],

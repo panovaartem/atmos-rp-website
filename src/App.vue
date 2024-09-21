@@ -11,37 +11,37 @@
 </template>
 
 <script>
-  import Header from '@/components/layouts/Header.vue'
-  import Footer from '@/components/layouts/Footer.vue'
+import Header from "@/components/layouts/Header.vue";
+import Footer from "@/components/layouts/Footer.vue";
 
-  export default {
-    components: {
-      Header,
-      Footer,
-    },
-    data() {
-      return {}
-    }
-  }
+export default {
+  components: {
+    Header,
+    Footer,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style lang="less">
-  #main {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: #0F1014;
-    background-image: url('./assets/img/background.png');
-    background-repeat: no-repeat;
-    background-blend-mode: luminosity;
-    font-family: 'Rubik', sans-serif;
-  }
+#main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f1014;
+  background-image: url("./assets/img/background.png");
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+  font-family: "Rubik", sans-serif;
+}
 
-  #content {
-    flex: 1;
-  }
-  
-  #footer-container {
-    /* flex-shrink: 0; */
-  }
+#content {
+  flex: 1;
+}
+
+#footer-container {
+  /* flex-shrink: 0; */
+}
 </style>

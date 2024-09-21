@@ -23,6 +23,6 @@ Vue.use(Vuebar);
 Vue.component('k-progress', KProgress);
 
 new Vue({
-  router, // добавляем роутер в экземпляр Vue
+  router,
   render: h => h(App)
 }).$mount('#app');
